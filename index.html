@@ -7,6 +7,15 @@
     <style>
         body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f4f9fc; color: #333; }
         .container { max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        
+        /* Стили для логотипа аквапарка */
+        .logo { 
+            max-width: 200px; /* Ограничение ширины, чтобы логотип не был огромным */
+            height: auto; 
+            margin: 0 auto 30px auto; /* 30px снизу — пространство, чтобы текст не прилип */
+            display: block; 
+        }
+        
         h1 { color: #0288d1; }
         .btn { display: inline-block; background: #4caf50; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; }
         .btn-kaspi { background: #f14635; }
@@ -14,9 +23,15 @@
 </head>
 <body>
     <div class="container">
-        <h1>Наш сайт временно обновляется</h1>
-        <p>Дорогие гости, приносим извинения. Аквапарк работает в обычном режиме!</p>
-        <p>Билеты Вы можете приобрести в приложении Kaspi, раздел Kaspi Travel.</p>
+        <!-- Логотип аквапарка -->
+        <img src="1297439.png" alt="Логотип Аквапарка" class="logo">
+
+        <h1>Наш site временно обновляется</h1>
+        <p>Приносим извинения за неудобства. Аквапарк работает в обычном режиме!</p>
+        <p>Вы можете приобрести билеты на кассе аквапарка или онлайн через приложение Kaspi.</p>
+        
+        <!-- Замените ссылку ниже на ваш Kaspi магазин или удалите кнопку -->
+        <a href="https://kaspi.kz" target="_blank" class="btn btn-kaspi">Купить билет через Kaspi</a>
     </div>
 </body>
 </html>
